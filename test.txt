@@ -1,4 +1,11 @@
 this is a test!
+<<<<<<< HEAD
 THis is the second version, revised once.
 THis is the third version, revised twice.
 This is interesting!
+=======
+ok, this is the up to data test right now!
+everything should be good right now.
+try
+branch test
+>>>>>>> branch1
