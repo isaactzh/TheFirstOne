@@ -1,0 +1,46 @@
+TASKS
+1) Create github account
+2) Send pico your username
+3) Download git for windows OR install linux (ubuntu)
+4) Clone the repository to your computer
+
+ROBOMASTERS
+    - rmuw_tpz: for trapezoid board only
+    - rmuw_firmware: for your own boards (arduino)
+    - rmuw_ros: ros code
+
+---------
+LINUX COMMANDS
+
+ls
+    shows you the files in your current directory
+pwd
+    prints your working directory
+
+cd whatever
+    changes directory to whatever/
+
+cd ..
+
+----------
+GIT COMMANDS
+
+git clone http://whatever
+    downloads the code to your computer
+
+--> setps for committing
+    1) git status
+    2) git add yourfolder/
+    3) git pull
+    4) git commit -m "yourmessaghere"
+    5) git push origin master
+
+----------
+ROS NOTES
+
+command line utilities
+
+roscore: keeps tracks of nodes, topics, messages etcc..
+rosnode list: lists all of your nodes
+rostopic list: lists all of your topics
+rostopic echo /yourtopic: prints out what is being published on /yourtopic
